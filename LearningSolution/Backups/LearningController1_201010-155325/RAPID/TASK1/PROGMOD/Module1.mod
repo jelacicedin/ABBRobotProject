@@ -33,7 +33,7 @@ MODULE Module1
     PROC main()
         !Add your code here
     ENDPROC
-    PROC Path_10()
+    PROC Path_10_2()
         MoveL Target_20,v100,fine,small_suction_gripper\WObj:=wobj0;
         PulseDO att_box;
         WaitTime 1;
