@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<uastext_registry xmlns="urn:abb-robotics-registry-uas-text">
+<entry domain="Builtin" prepath="C:/Users/jelac/AppData/Local/ABB/RobotWare/RobotWare_6.11.2019/language/install/../" postpath="/controller/uas/uastext.xml"/>
+</uastext_registry>

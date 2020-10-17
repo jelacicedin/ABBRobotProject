@@ -1,0 +1,51 @@
+MODULE Module1
+        CONST robtarget Target_30_2:=[[50.643315427,1283.469679515,500],[0,1,0,0],[0,0,-2,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_30:=[[1003.984770291,752.263691276,500],[0,1,0,0],[0,0,-2,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40:=[[1344.929,399.585,500],[0,1,0,0],[0,-1,-2,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40_2:=[[564.981049253,399.585,500],[0,1,0,0],[0,0,-2,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Overview_10:=[[1118.047749522,519.70477179,321.52658222],[0,1,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Overview_10_2:=[[1118.047749522,-355.910803064,321.52658222],[0,1,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Overview_10_3:=[[1475.669897804,-339.501523632,321.52658222],[0,1,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Overview_10_4:=[[1474.810430202,542.482868826,321.52658222],[0,1,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Overview_10_5:=[[1816.588775676,519.70477179,321.52658222],[0,1,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Overview_10_6:=[[1842.541745628,-361.056417026,321.52658222],[0,1,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+!***********************************************************
+    !
+    ! Module:  Module1
+    !
+    ! Description:
+    !   <Insert description here>
+    !
+    ! Author: jelac
+    !
+    ! Version: 1.0
+    !
+    !***********************************************************
+    
+    
+    !***********************************************************
+    !
+    ! Procedure main
+    !
+    !   This is the entry point of your program
+    !
+    !***********************************************************
+    PROC main()
+        !Add your code here
+        Path_20;
+    ENDPROC
+    PROC Path_10()
+        MoveL Target_30_2,v1000,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Target_30,v1000,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Target_40,v1000,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Target_40_2,v1000,z100,small_suction_gripper\WObj:=wobj0;
+    ENDPROC
+    PROC Path_20()
+        MoveL Overview_10,v80,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Overview_10_2,v80,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Overview_10_3,v80,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Overview_10_4,v80,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Overview_10_5,v80,z100,small_suction_gripper\WObj:=wobj0;
+        MoveL Overview_10_6,v80,z100,small_suction_gripper\WObj:=wobj0;
+    ENDPROC
+ENDMODULE

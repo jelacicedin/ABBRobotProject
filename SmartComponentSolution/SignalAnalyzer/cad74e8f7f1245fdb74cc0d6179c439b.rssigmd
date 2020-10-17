@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Metadata Version="1">
+  <Id>cad74e8f7f1245fdb74cc0d6179c439b</Id>
+  <Name>Recording-25</Name>
+  <EventCount>1</EventCount>
+  <StartedUtc>2020-10-17T17:06:11.8156542Z</StartedUtc>
+  <EndedUtc>2020-10-17T17:06:17.4070594Z</EndedUtc>
+  <TotalTime>0</TotalTime>
+  <Signals />
+  <Sources>
+    <Source type="Station" id="{661fb800-9b65-4a75-9cef-5ffe16ed4b2d}" displayName="SmartComponentSolution" />
+  </Sources>
+</Metadata>
