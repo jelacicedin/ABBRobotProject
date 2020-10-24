@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemProperties>
+  <SystemName>IRB_4600_60kg_2.05m</SystemName>
+  <SerialNo>VIRTUAL_USE</SerialNo>
+  <UsedMedia>
+    <Media path="C:\Users\jelac\AppData\Local\ABB\RobotWare\RobotWare_6.11.2019" name="RobotWare" version="6.11.2019">
+    </Media>
+  </UsedMedia>
+  <ControlModule>
+    <Option descr="RobotWare Base">
+    </Option>
+    <Option descr="English">
+    </Option>
+  </ControlModule>
+  <DriveModule>
+    <Name>Robot1</Name>
+    <Option descr="Drive System IRB 460/640/660/760/4600/66xx/6700">
+    </Option>
+    <Option descr="ADU-790A in position X3">
+    </Option>
+    <Option descr="ADU-790A in position Y3">
+    </Option>
+    <Option descr="ADU-790A in position Z3">
+    </Option>
+    <Option descr="Axis Calibration">
+    </Option>
+    <Option descr="IRB 4600-60/2.05 Type C">
+    </Option>
+  </DriveModule>
+</SystemProperties>
